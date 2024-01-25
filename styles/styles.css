@@ -8,6 +8,10 @@
     font-family: 'Lora', serif;
 }
 
+* p {
+    font-weight: bold;
+}
+
 * a {
     text-decoration: none;
 }
@@ -36,20 +40,28 @@ main {
     padding: 1em 2em;
 }
 
+main p {
+    color: #F39200;
+}
+
 main img {
     width: 100%;
     margin: 1em 0em;
     border-radius: 10px;
 }
 
-main button {
+main a {
     padding: 1em;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
     width: 70%;
     font-family: 'Lora', serif;
-    font-size: 1em;
+    font-size: 1.2em;
     background-color: #F39200;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px #000;
 }
 
 main div {
@@ -61,8 +73,14 @@ main h1 {
     font-size: 2em;
 }
 
+main ul {
+    margin-top: 1em;
+    color: #F39200;
+    font-size: larger;
+}
+
 footer {
-    height: 10vh;
+    height: auto;
     width: 100vw;
     position: sticky;
     bottom: 0;
@@ -81,7 +99,6 @@ footer nav {
 
 footer a {
     width: 25%;
-    
     height: inherit;
     display: flex;
     flex-direction: column;
@@ -101,6 +118,39 @@ footer nav ul {
     align-items: center;
 }
 
+section div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 47vh;
+    height: 12em;
+    font-size: smaller;
+}
+
+section div p {
+    padding: 0.5em;
+}
+
 .home-footer{
     height: 5vh;
+}
+
+.locatie-div {
+    background-color: #572911;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+a:link {
+    color: #35499A;
+}  
+
+a:visited {
+    color: #35499A;
+}
+
+a:hover {
+    color: black;
+    transition: all 700ms ease;
+    background-color: orange;
 }
