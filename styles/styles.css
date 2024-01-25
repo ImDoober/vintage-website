@@ -29,9 +29,9 @@ header {
 }
 
 header img {
-    width: 20%;
-    height: 100%;
     position: sticky;
+    width: 70px;
+    height: 66px;
 }   
 
 main {
@@ -95,6 +95,8 @@ footer p{
 footer nav {
     height: inherit;
     width: inherit;
+    display: flex;
+
 }
 
 footer a {
